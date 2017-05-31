@@ -1,0 +1,91 @@
+/*Index*/
+
+body{
+	word-break: keep-all;
+}
+
+@font-face{
+	font-family: 'namsan';
+  	src: url("../font-awesome/fonts/SeoulNamsanvert.ttf"); 
+}
+
+.font-namsan{
+	font-family: 'namsan';
+}
+
+
+.default-padding{
+	padding:0px !important;
+}
+
+
+.background-grayish{
+	background: #e6e6e6;
+}
+
+.background-greenish{
+	background: #b8e2cf;
+	/*background: #afd0c1;*/
+}
+
+.background-blueish{
+	background: #4b8b9e;
+}
+
+
+.bold{
+	font-weight: bold;
+}
+
+.img-group-header{
+	background: #ffcb6b;
+	padding:3px 0px;
+}
+
+.img-item{
+	margin: 10px auto;
+}
+
+.max-size{
+	max-width: 970px;
+	margin: 0 auto;
+}
+
+.header-margin-reset{
+	margin:0;
+}
+
+.padding-20{
+	padding: 20px;
+}
+
+.padding-20-10{
+	padding: 20px 10px;
+}
+
+
+.image-row{
+	padding-bottom: 40px;
+}
+
+.margin-top-20{
+	margin-top:20px;
+}
+
+.jumbo-green{
+	background: #afd0c1;
+}
+
+.white-text{
+	color:white;
+}
+
+.center{
+	margin:0 auto;
+}
+
+@media (min-width: 768px) {
+.container{
+	width: 100%;
+}
+}
