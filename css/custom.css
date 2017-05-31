@@ -19,11 +19,17 @@ footer{
 	font-family: 'namsan';
 }
 
+.center-text{
+	text-align: center;
+}
 
 .default-padding{
 	padding:0px !important;
 }
 
+.force-gray{
+	background: #F2F2F2 !important;
+}
 
 .background-grayish{
 	background: #e6e6e6;
@@ -103,11 +109,10 @@ footer{
 }
 
 .cost-table{
-	border:black solid 5px;
 }
 
 .cost-table td{
-	border:#85b7ff solid 5px;
+	border:black solid 3px;
 	padding:5px 20px;
 }
 
