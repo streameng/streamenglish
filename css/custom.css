@@ -4,10 +4,16 @@ body{
 	word-break: keep-all;
 }
 
+footer{
+	padding:0;
+	margin:0;
+}
+
 @font-face{
 	font-family: 'namsan';
   	src: url("../font-awesome/fonts/SeoulNamsanvert.ttf"); 
 }
+
 
 .font-namsan{
 	font-family: 'namsan';
@@ -30,6 +36,14 @@ body{
 
 .background-blueish{
 	background: #4b8b9e;
+}
+
+.background-lightblueish{
+	background: #b8dae2;
+}
+
+.background-darkblueish{
+	background: #2b72cd;
 }
 
 
@@ -80,8 +94,25 @@ body{
 	color:white;
 }
 
+.gray-text{
+	color:#9d9d9d;
+}
+
 .center{
 	margin:0 auto;
+}
+
+.cost-table{
+	border:black solid 5px;
+}
+
+.cost-table td{
+	border:#85b7ff solid 5px;
+	padding:5px 20px;
+}
+
+.footer-padding{
+	padding: 50px 10px;
 }
 
 @media (min-width: 768px) {
