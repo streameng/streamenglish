@@ -14,9 +14,16 @@ footer{
   	src: url("../font-awesome/fonts/SeoulNamsanvert.ttf"); 
 }
 
+hr{
+	border-top:1px solid #989898;
+}
 
 .font-namsan{
 	font-family: 'namsan';
+}
+
+.navbar-header a {
+	color:black;
 }
 
 .center-text{
@@ -83,6 +90,9 @@ footer{
 	padding: 20px 10px;
 }
 
+.padding-20-10-60{
+	padding: 20px 10px 60px;
+}
 
 .image-row{
 	padding-bottom: 40px;
@@ -98,6 +108,10 @@ footer{
 
 .white-text{
 	color:white;
+}
+
+.black-text{
+	color:black;
 }
 
 .gray-text{
