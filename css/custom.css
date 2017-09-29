@@ -18,6 +18,12 @@ hr{
 	border-top:1px solid #989898;
 }
 
+.carousel-inner img {
+	margin:0 auto;
+	max-height: 430px;
+	max-width:500px !important;
+}
+
 #intro-image{
 	width: 100%;
 	max-width: 500px;

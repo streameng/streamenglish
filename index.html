@@ -1,130 +1,252 @@
 <!DOCTYPE html>
 <html lang="kor">
-
 <head>
+    <meta charset="utf-8"></meta>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta
+        http-equiv="X-UA-Compatible"
+        content="IE=edge"
+    ></meta>
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1"
+    ></meta>
+
+    <meta
+        name="description"
+        content=""
+    ></meta>
+
+    <meta
+        name="author"
+        content=""
+    ></meta>
 
     <title>웅지전기</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link
+        href="css/bootstrap.min.css"
+        rel="stylesheet"
+    ></link>
 
     <!-- Custom CSS -->
-    <link href="css/modern-business.css" rel="stylesheet">
+
+    <link
+        href="css/modern-business.css"
+        rel="stylesheet"
+    ></link>
 
     <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-    <link href="css/custom.css" rel="stylesheet">
+    <link
+        href="font-awesome/css/font-awesome.min.css"
+        rel="stylesheet"
+        type="text/css"
+    ></link>
+
+    <link
+        href="css/custom.css"
+        rel="stylesheet"
+    ></link>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+    <!-- [if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+    <![endif] -->
 </head>
 
 <body class="max-size">
-
     <!-- Navigation -->
-    <nav class="navbar force-gray navbar-fixed-top max-size" role="navigation">
+
+    <nav
+        class="navbar force-gray navbar-fixed-top max-size"
+        role="navigation"
+    >
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header"><!--
-                <button type="button" class="navbar-toggle"  data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>-->
-                <a class="navbar-brand bold" href="index.html">홈</a>
-                <a class="navbar-brand bold" href="profile.html">프로필</a>
+
+            <div class="navbar-header">
+                <a
+                    class="navbar-brand bold"
+                    href="index.html"
+                >홈</a>
+
+                <a
+                    class="navbar-brand bold"
+                    href="profile.html"
+                >프로필</a>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <!--<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container -->
     </nav>
 
     <!-- Page Content -->
+
     <div class="container center">
+        <!-- JUSTIN!!!! BEGIN THE CAROUSEL HERE! -->
+
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="header-margin-reset">
-                    <div class="padding-20 center-text">
-                        <img id="intro-image" src="./images/profile.jpg"/>
-                    </div>
-                </h1>
-            </div>
-        </div>
+                <div class="padding-20 center-text">
+                    <div
+                        id="myCarousel"
+                        class="carousel slide"
+                        data-ride="carousel"
+                    >
+                        <!-- Indicators -->
 
-        <!-- Marketing Icons Section -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="header-margin-reset">
-                    <div class="padding-20">
-                    <p class="text-center bold">영어교정 영어번역</p>
-                    </div>
-                </h1>
-            </div>
-        </div>
-                    <hr>
-        <div class="row">
-            <div class="col-lg-12 bold default-padding">
-                <div class="padding-20-20">
-                <h3><p class="text-center"> 
-                안녕하세요? 영어교정전문 스트림통역번역재단입니다.<br>
-영어교정 전문가가 이미 영어로 번역된 자료를 가지고 교정을 합니다. <br>
-원어민 영어교정을 원하시는 분은 이메일이나 (가급적) 휴대전화로 문의 바랍니다. <br>
+                        <ol class="carousel-indicators">
+                            <li
+                                data-target="#myCarousel"
+                                data-slide-to="0"
+                                class="active"
+                            ></li>
 
-                </p></h3>
-                <hr>
-                    <div class="text-center">
-                    <h2 class="header-margin-reset"><b>스트림 번역통역재단</b></h2> 
-                    <h3><i class="fa fa-phone"></i> 
-                        <b>063-626-0508</b>
-                    </h3>
-                    <h3 class="header-margin-reset"><i class="fa fa-mobile"></i> 
-                        <b>010-3254-0509</b>
-                    </h3>
-                    <h3><i class="fa fa-envelope-o"></i> 
-                        <a class=" bold" href="mailto:streameng@naver.com">streameng@naver.com</a>
-                    </h3>
+                            <li
+                                data-target="#myCarousel"
+                                data-slide-to="1"
+                            ></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img
+                                    src="./images/profile.jpg"
+                                    alt="profile"
+                                >
+                            </div>
+
+                            <div class="item">
+                                <img
+                                    src="./images/certificate.jpg"
+                                    alt="carousel"
+                                >
+                            </div>
+                        </div>
+
+                        <!-- Left and right controls -->
+
+                        <a
+                            class="left carousel-control"
+                            href="#myCarousel"
+                            data-slide="prev"
+                        >
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+
+                            <span class="sr-only">Previous</span>
+                        </a>
+
+                        <a
+                            class="right carousel-control"
+                            href="#myCarousel"
+                            data-slide="next"
+                        >
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+
+                            <span class="sr-only">Next</span>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!-- JUSTIN!!!! END THE CAROUSEL HERE! -->
+        <!-- Marketing Icons Section -->
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="header-margin-reset">
+                    <div class="padding-20">
+                        <p class="text-center bold">영어교정 영어번역</p>
+                    </div>
+                </h1>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-lg-12 bold default-padding">
+                <div class="padding-20-20">
+                    <h3>
+                        <p class="text-center">
+                            안녕하세요? 영어교정전문 스트림통역번역재단입니다.
+
+                            <br>
+                            영어교정 전문가가 이미 영어로 번역된 자료를 가지고 교정을 합니다.
+
+                            <br>
+                            원어민 영어교정을 원하시는 분은 이메일이나 (가급적) 휴대전화로 문의 바랍니다.
+
+                            <br>
+                        </p>
+                    </h3>
+
                     <hr>
+
+                    <div class="text-center">
+                        <h2 class="header-margin-reset">
+                            <b>스트림 번역통역재단</b>
+                        </h2>
+
+                        <h3>
+                            <i class="fa fa-phone"></i>
+
+                            <b>063-626-0508</b>
+                        </h3>
+
+                        <h3 class="header-margin-reset">
+                            <i class="fa fa-mobile"></i>
+
+                            <b>010-3254-0509</b>
+                        </h3>
+
+                        <h3>
+                            <i class="fa fa-envelope-o"></i>
+
+                            <a
+                                class="bold"
+                                href="mailto:streameng@naver.com"
+                            >streameng@naver.com</a>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
 
         <div class="row">
             <div class="col-lg-12 bold default-padding">
                 <div class="padding-20-10-60">
-                <h2 class="center-text">번역요율</h2>
+                    <h2 class="center-text">번역요율</h2>
+
                     <table class="cost-table center">
                         <tr>
-                            <td><h3>원어민 영어교정</h3></td>
-                            <td><h3>가격</h3></td>
+                            <td>
+                                <h3>원어민 영어교정</h3>
+                            </td>
+
+                            <td>
+                                <h3>가격</h3>
+                            </td>
                         </tr>
+
                         <tr>
                             <td>1 page</td>
+
                             <td>12,000원</td>
                         </tr>
-                         <tr>
+
+                        <tr>
                             <td>10 pages</td>
+
                             <td>100,000원</td>
                         </tr>
                     </table>
@@ -133,27 +255,27 @@
         </div>
 
         <!-- Footer -->
+
         <footer class="">
             <div class="row">
                 <div class="col-lg-12 footer-padding force-gray">
                     <p class="bold">상호: 스트림 (STREAM) 번역통역재단</p>
+
                     <p class="bold">대표: 김진우</p>
+
                     <p class="bold">주소: 전북 남원시 도통동 용성로 30-17</p>
-                    <p class="bold">사업자번호: 407-90-48676 </p>
+
+                    <p class="bold">사업자번호: 407-90-48676</p>
                 </div>
             </div>
         </footer>
     </div>
-    <!-- /.container -->
 
+    <!-- /.container -->
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
-
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
     <script src="js/jquery.word-break-keep-all.min.js"></script>
-
 </body>
-
 </html>
